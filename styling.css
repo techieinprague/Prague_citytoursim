@@ -1,0 +1,84 @@
+body{
+    background: url(images/prague.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    scroll-behavior: smooth;
+    
+}
+
+.navbar{
+    background: rgba(0, 0, 0, 0.5);
+}
+.dropdown-toggle:focus {
+    outline:none!important;
+  }
+.navbar-nav li{
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    margin-right: 35px;
+    padding: 10px 0;
+}
+.navbar-nav li:hover{
+    border-bottom: 1px solid peru;
+    font-size: 1.5em;
+    transition: font-size 0.3s ease; /*    linear*/
+    -webkit-transition: font-size 0.3s ease; /*    linear*/
+    -moz-transition: font-size 0.3s ease; /*    linear*/
+    -o-transition: font-size 0.3s ease; /*    linear*/
+   
+}
+/* style jumbotron */
+.jumbotron{
+    color: #fff;
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 200px;
+    padding: 10px;
+    
+}
+
+.jumbotron h1{
+    font-size: 5em;
+    font-weight: 1000;
+    font-family: 'Sriracha', cursive;
+    letter-spacing: 2.5px;
+}
+.jumbotron p{
+    letter-spacing: 2px;
+    font-weight: 400;
+
+}
+/* video container */
+.iframe-container{
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 5px;
+    color: white;
+    margin: 100px 50px 50px 50px;
+}
+
+/* footer */
+.footer{
+    background: rgba(0, 0, 0, 0.8);
+    height: 50px;
+    color: #fff;
+    font-family: monospace;
+    font-size: 1em;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    padding: 15px 20px;
+}
+
+.carousel-inner > .carousel-item > a > img {
+    margin: 0 auto;
+  }
+
